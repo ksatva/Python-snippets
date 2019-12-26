@@ -1,0 +1,18 @@
+#FUNDAMENTAL UNITS
+
+fundamental_units = {
+	'length': 'metre',
+	'mass':'kilogram',
+	'time':'second',
+	'electric current':'ampere'
+	'thermodynamic temperature':'kelvin'
+	'luminious intensity':'candela'
+	'amount of substance':'mole'}
+	
+fundamental_unit_symbols = {
+	'metre':'m',
+	'kilogram':'kg',
+	'second':'s',
+	'ampere', 'A',
+	'kelvin':'K',
+	'mole':'mol'}

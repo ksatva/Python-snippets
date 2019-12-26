@@ -1,0 +1,56 @@
+/var/lib/dpkg
+3.13.0-128-generic
+    ------------------------vvvvvv--
+    found in: status
+    Package: linux-image-3.13.0-128-generic
+
+    /var/lib/dpkg/status
+    --
+    ------------------------vvvvvv--
+    found in: available-old
+    Package: linux-image-3.13.0-128-generic
+
+    /var/lib/dpkg/available-old
+    --
+    ------------------------vvvvvv--
+    found in: available
+    Package: linux-image-extra-3.13.0-128-generic
+
+    /var/lib/dpkg/available
+    --
+    ------------------------vvvvvv--
+    found in: status-old
+    Package: linux-signed-image-3.13.0-128-generic
+
+    /var/lib/dpkg/status-old
+    --
+    ------------------------vvvvvv--
+    found in: status.backup
+    Package: linux-image-3.13.0-128-generic
+
+    /var/lib/dpkg/status.backup
+    --
+    ------------------------vvvvvv--
+    found in: linux-image-extra-3.13.0-128-generic.postrm
+    	depmod -a -F /boot/System.map-3.13.0-128-generic 3.13.0-128-generic || true
+
+    /var/lib/dpkg/info/linux-image-extra-3.13.0-128-generic.postrm
+    --
+    ------------------------vvvvvv--
+    found in: linux-image-extra-3.13.0-128-generic.md5sums
+    360de6f92e207c367029ea163ef4f979  lib/modules/3.13.0-128-generic/kernel/drivers/ata/pata_ali.ko
+
+    /var/lib/dpkg/info/linux-image-extra-3.13.0-128-generic.md5sums
+    --
+    ------------------------vvvvvv--
+    found in: linux-image-3.13.0-128-generic.postrm
+    my $version           = "3.13.0-128-generic";
+
+    /var/lib/dpkg/info/linux-image-3.13.0-128-generic.postrm
+    --
+    ------------------------vvvvvv--
+    found in: linux-image-extra-3.13.0-128-generic.postinst
+    	depmod -a -F /boot/System.map-3.13.0-128-generic 3.13.0-128-generic || true
+
+    /var/lib/dpkg/info/linux-image-extra-3.13.0-128-generic.postinst
+    --

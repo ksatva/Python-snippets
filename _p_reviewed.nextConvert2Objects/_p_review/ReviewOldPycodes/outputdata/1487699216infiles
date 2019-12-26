@@ -1,0 +1,68 @@
+/home/kishore
+quick brown fox
+    ------------------------vvvvvv--
+    found in: TEXT.py
+    string = 'A quick brown fox jumps over the lazy dog. A QUICK BROWN FOX JUMPS OVER THE LAZY DOGBatBatBatBatmanBatman batwomanmanBatman batwomanman supermanwoman heman woman superwoman '
+
+    /home/kishore/p/TEXT.py
+    --
+    ------------------------vvvvvv--
+    found in: regexpexp.py
+    string = 'A quick brown fox jumps over the lazy dog. A QUICK BROWN FOX JUMPS OVER THE LAZY DOGBatBatBatBatmanBatman batwomanmanBatman batwomanman supermanwoman heman woman superwoman '
+
+    /home/kishore/p/regexpexp.py
+    --
+    ------------------------vvvvvv--
+    found in: 12.py
+    message='a quick brown fox jumps over a lazy dog'
+
+    /home/kishore/p/12.py
+    --
+    ------------------------vvvvvv--
+    found in: string.py
+    s='the quick brown fox jumps over the lazy dog'
+
+    /home/kishore/p/string.py
+    --
+    ------------------------vvvvvv--
+    found in: cryptography1.py
+    lorem = 'A quick brown fox jumps over the lazy dog'
+
+    /home/kishore/p/cryptography1.py
+    --
+    ------------------------vvvvvv--
+    found in: cryptography1.py2
+    lorem = 'A quick brown fox jumps over the lazy dog'
+
+    /home/kishore/p/cryptography1.py2
+    --
+    ------------------------vvvvvv--
+    found in: string-capwords.py
+    s='the quick brown fox jumps over the lazy dog'
+
+    /home/kishore/p/string-capwords.py
+    --
+    ------------------------vvvvvv--
+    found in: string-maketrans.py
+    s='the quick brown fox jumps over the lazy dog'
+
+    /home/kishore/p/string-maketrans.py
+    --
+    ------------------------vvvvvv--
+    found in: TEXT.py
+    string = 'A quick brown fox jumps over the lazy dog. A QUICK BROWN FOX JUMPS OVER THE LAZY DOGBatBatBatBatmanBatman batwomanmanBatman batwomanman supermanwoman heman woman superwoman '
+
+    /home/kishore/x/TEXT.py
+    --
+    ------------------------vvvvvv--
+    found in: regexpexp.py
+    string = 'A quick brown fox jumps over the lazy dog. A QUICK BROWN FOX JUMPS OVER THE LAZY DOGBatBatBatBatmanBatman batwomanmanBatman batwomanman supermanwoman heman woman superwoman '
+
+    /home/kishore/x/regexpexp.py
+    --
+    ------------------------vvvvvv--
+    found in: 12.py
+    message='a quick brown fox jumps over a lazy dog'
+
+    /home/kishore/x/12.py
+    --

@@ -1,0 +1,4 @@
+#FUNDAMENTAL UNITS
+
+fundamental_units = {'length': 'metre','mass':'kilogram',
+time'}

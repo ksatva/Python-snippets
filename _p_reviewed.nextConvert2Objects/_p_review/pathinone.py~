@@ -1,0 +1,24 @@
+
+#FUNCTIONS:
+
+def pathvalidcheck(path):
+    import os
+    if not os.path.exists(path):
+        return False    #return -1 if path invalid
+    else:
+        return True
+        
+#------------------------------        
+def pathinput():
+    print('path: ',end=' ')
+    path = input()
+    if pathvalidcheck(path) == False:
+        return "invalid path"
+    else:
+        return path
+
+def keyinput():
+    print('key: ',end=' ')
+    key = input()
+    return key
+#-------------------------------

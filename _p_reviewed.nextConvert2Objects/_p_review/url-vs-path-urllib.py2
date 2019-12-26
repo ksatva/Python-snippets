@@ -1,0 +1,18 @@
+import os
+
+from urllib import pathname2url, url2pathname
+
+print '==Default=='
+path = '/a/b/c'
+print 'Original:',path
+print 'URL	:',pathname2url(path)
+print 'Path	:',url2pathname('/d/e/f')
+print
+
+'''
+more info:
+>urllib (http://docs.python.org/lib/module-urllib.html)
+>urllib2 (pg 657)
+>urlparse (pg 638) 
+
+

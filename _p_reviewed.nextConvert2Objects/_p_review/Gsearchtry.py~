@@ -1,0 +1,53 @@
+
+
+def G(searchkey):
+	 #search internet and store results (url) in a list
+	 #also write in a file
+
+    results = []
+    count = 0
+    maxcount = 10
+
+    from google import search
+    for url in search(searchkey, maxcount):
+        print(url)
+        #count +=1
+        #while True:
+          #  results.append(url)
+    #last line created a data structure[results]; 
+    '''
+    
+    '''
+   # return results
+'''
+def Gwriteinfile(inputlist):
+   #next write [results] to a file
+   from myFunc import *
+   filepath = filepathcreation('Gsearch')
+   Gfileobject = open(filepath,'a')
+   for key in results:
+      write2file(Gfileobject, key)
+    #input results to a file done 
+   '''
+
+#parse url
+
+#main function
+if __name__ == '__main__':
+   
+   #from myFunc import *
+   #results = 
+   G(input('GSearch: '))
+   
+  # print(results)
+   '''
+	####python2 codes for following
+	x = structureresult(results) 
+	print x
+	'''
+	#--to change when py2 and py3 compatible-------
+	
+
+
+
+#filter search by receiving website metadata

@@ -1,0 +1,73 @@
+/home/kishore/p
+python    ------------------------vvvvvv--
+    found in: internet6
+    >BaseHTTPServer (http://docs.python.org/library/basehttpserver.html) standard library doc of module
+
+    /home/kishore/p/internet6
+    --
+    ------------------------vvvvvv--
+    found in: errors.py
+    #in python3
+
+    /home/kishore/p/errors.py
+    --
+    ------------------------vvvvvv--
+    found in: internet1.py2
+    >http://docs.python.org/lib/module-urlparse.html
+
+    /home/kishore/p/internet1.py2
+    --
+    ------------------------vvvvvv--
+    found in: internet2.py2~
+    #The python standard library by example
+
+    /home/kishore/p/internet2.py2~
+    --
+    ------------------------vvvvvv--
+    found in: internet2.py2
+    #The python standard library by example
+
+    /home/kishore/p/internet2.py2
+    --
+    ------------------------vvvvvv--
+    found in: internet3.py2
+    #The python standard library by example
+
+    /home/kishore/p/internet3.py2
+    --
+    ------------------------vvvvvv--
+    found in: internet3.py2~
+    #The python standard library by example
+
+    /home/kishore/p/internet3.py2~
+    --
+    ------------------------vvvvvv--
+    found in: pw.py
+        print('Usage: python pw.py[account]-copu account password')
+
+    /home/kishore/p/pw.py
+    --
+    ------------------------vvvvvv--
+    found in: idle1.py
+      File "/usr/lib/python3.4/idlelib/PyShell.py", line 1347, in write
+
+    /home/kishore/p/idle1.py
+    --
+    ------------------------vvvvvv--
+    found in: infilesviz.txt~
+          File "/usr/lib/python3.4/idlelib/PyShell.py", line 1347, in write
+
+    /home/kishore/p/outputdata/infilesviz.txt~
+    --
+    ------------------------vvvvvv--
+    found in: introduction.rst
+    .. code:: python
+
+    /home/kishore/p/pyperclip-1.5.27/docs/introduction.rst
+    --
+    ------------------------vvvvvv--
+    found in: clipboards.py
+            # for python 2, returns None if the clipboard is blank.
+
+    /home/kishore/p/pyperclip-1.5.27/pyperclip/clipboards.py
+    --

@@ -1,0 +1,32 @@
+/etc
+xdm
+    ------------------------vvvvvv--
+    found in: services
+    xdmcp		177/udp
+
+    /etc/services
+    --
+    ------------------------vvvvvv--
+    found in: plymouth-stop.conf
+              or starting xdm
+
+    /etc/init/plymouth-stop.conf
+    --
+    ------------------------vvvvvv--
+    found in: oem-config.conf
+    	  or starting lxdm
+
+    /etc/init/oem-config.conf
+    --
+    ------------------------vvvvvv--
+    found in: gpu-manager.conf
+              or starting lxdm)
+
+    /etc/init/gpu-manager.conf
+    --
+    ------------------------vvvvvv--
+    found in: acpid
+    # X-Start-Before:    kdm gdm3 xdm lightdm
+
+    /etc/init.d/acpid
+    --

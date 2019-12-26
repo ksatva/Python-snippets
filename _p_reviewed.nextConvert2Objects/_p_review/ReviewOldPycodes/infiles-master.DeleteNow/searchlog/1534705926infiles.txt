@@ -1,0 +1,75 @@
+search-path: /home/k/workbench/cognitionExp
+search-key: shuffle_trials
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: nbacktask_copy.py
+        b.shuffle_trials()
+
+    Path: /home/k/workbench/cognitionExp/nbacktask_copy.py
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: nbacktask_v0.py
+        b.shuffle_trials()
+
+    Path: /home/k/workbench/cognitionExp/nbacktask_v0.py
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: arithmatictask_v0_1.py
+        #b.shuffle_trials()
+
+    Path: /home/k/workbench/cognitionExp/arithmatictask_v0_1.py
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: nbacktask.py
+        b.shuffle_trials()
+
+    Path: /home/k/workbench/cognitionExp/nbacktask.py
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: nbacktask_v00.py
+        b.shuffle_trials()
+
+    Path: /home/k/workbench/cognitionExp/nbacktask_v00.py
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: csv_save_design.py
+        block.shuffle_trials()
+
+    Path: /home/k/workbench/cognitionExp/examples_expyriment-stash-master/examples/csv_save_design.py
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: word_fragment_completion_task.py
+    block.shuffle_trials()
+
+    Path: /home/k/workbench/cognitionExp/examples_expyriment-stash-master/examples/behavioural/word_fragment_completion_task/word_fragment_completion_task.py
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: genindex.html
+      <dt><a href="expyriment.design.Block.html#expyriment.design.Block.shuffle_trials">shuffle_trials() (expyriment.design.Block method)</a>
+
+    Path: /home/k/workbench/cognitionExp/share/expyriment/documentation/html/genindex.html
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: expyriment.design.Block.html
+    <code class="descname">shuffle_trials</code><span class="sig-paren">(</span><em>method=0</em>, <em>max_repetitions=None</em>, <em>n_segments=None</em><span class="sig-paren">)</span><a class="headerlink" href="#expyriment.design.Block.shuffle_trials" title="Permalink to this definition">¶</a></dt>
+
+    Path: /home/k/workbench/cognitionExp/share/expyriment/documentation/html/expyriment.design.Block.html
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+

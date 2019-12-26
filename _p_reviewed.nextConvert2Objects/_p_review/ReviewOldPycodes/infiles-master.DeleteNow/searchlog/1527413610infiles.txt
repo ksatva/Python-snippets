@@ -1,0 +1,3 @@
+search-path: /home/k/Documents
+search-key: kjkjl
+

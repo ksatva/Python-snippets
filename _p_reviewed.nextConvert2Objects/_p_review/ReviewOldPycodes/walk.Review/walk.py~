@@ -1,0 +1,61 @@
+#!/usr/bin/python3
+#FILENAME: walk.py
+#Objective: To search files and folders in a local system
+
+import os
+from pathinputblock import *
+from walkblock import *
+
+def walk():
+   print('\n[START]~~~~~~~~~~~~~~~~~walking local system only~~~')
+   
+   count=0
+   for i in range(2):
+   	if count == 2:
+   		return "Invalid search-path"
+   	else:
+   		path = input('search-path: ')
+      	count+=1
+      	if not os.path.exists(path):
+      		input('!!! Invalid path\nsearch-path: ')
+      	else:
+      		break
+      		   
+   searchkey = input('search-key: ')
+    
+   walktype = ['s', '.', 'x', 'c', 'l', 'work']
+	
+	#)
+   wkey = input('Choose walktype: \nsearch(s) exactMatch(.) fileType(x) countOnly(c) list(l) work\nwalktype? ')
+   while True:
+      if wkey not in walktype:
+         #print('!!!warning: keyerror!!!')
+         #print('key:'end=' ')
+         wkey = input('!!!warning: keyerror!!!\n walktype? ')
+        
+      else:
+         print('walk-search...')
+         if wkey == 'c':
+            walk2count(path)
+            break
+         if wkey == 'l':
+            walk2list(path)
+            break
+         if wkey == 's':
+            walksearch(path,searchkey)
+            break
+         if wkey == '.':
+            walkexact(path,searchkey)
+            break
+         if wkey == 'x':
+            walk4fext(path,searchkey)
+            break
+         #~~~~~~   
+         if wkey == 'work':
+            appopen('/home/kishore/LearnPY/walkwork.py')
+            walkwork(path,searchkey)
+            break
+    
+if __name__ == '__main__':
+	walk()
+	print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~walk~~~[end]')

@@ -1,0 +1,74 @@
+/home/kishore
+anydbm
+    ------------------------vvvvvv--
+    found in: zope-3.3.1.api
+    ZODB.dbmStorage.anydbmStorage.__init__?1(self, filename, flag='r', mode=0666)
+
+    /home/kishore/Downloads/eric6-17.02.1/eric/APIs/Python/zope-3.3.1.api
+    --
+    ------------------------vvvvvv--
+    found in: zope-2.10.7.api
+    ZODB.dbmStorage.anydbmStorage.__init__?1(self, filename, flag='r', mode=0666)
+
+    /home/kishore/Downloads/eric6-17.02.1/eric/APIs/Python/zope-2.10.7.api
+    --
+    ------------------------vvvvvv--
+    found in: zope-2.11.2.api
+    ZODB.dbmStorage.anydbmStorage.__init__?1(self, filename, flag='r', mode=0666)
+
+    /home/kishore/Downloads/eric6-17.02.1/eric/APIs/Python/zope-2.11.2.api
+    --
+    ------------------------vvvvvv--
+    found in: gentreelog.log
+    .usr.lib.python2.7.anydbm.pyc
+
+    /home/kishore/sh/gentreelog.log
+    --
+    ------------------------vvvvvv--
+    found in: __init__.py
+    import anydbm
+
+    /home/kishore/google_appengine/google/appengine/ext/preload/__init__.py
+    --
+    ------------------------vvvvvv--
+    found in: fix_imports.py
+               # anydbm and whichdb are handled by fix_imports2
+
+    /home/kishore/anaconda3/pkgs/python-3.6.0-0/lib/python3.6/lib2to3/fixes/fix_imports.py
+    --
+    ------------------------vvvvvv--
+    found in: fix_imports2.py
+                'anydbm': 'dbm',
+
+    /home/kishore/anaconda3/pkgs/python-3.6.0-0/lib/python3.6/lib2to3/fixes/fix_imports2.py
+    --
+    ------------------------vvvvvv--
+    found in: _objects.py
+        import dbm as anydbm
+
+    /home/kishore/anaconda3/pkgs/dill-0.2.5-py36_0/lib/python3.6/site-packages/dill/_objects.py
+    --
+    ------------------------vvvvvv--
+    found in: _objects.py
+        import dbm as anydbm
+
+    /home/kishore/anaconda3/lib/python3.6/site-packages/dill/_objects.py
+    --
+    ------------------------vvvvvv--
+    found in: fix_imports.py
+               # anydbm and whichdb are handled by fix_imports2
+
+    /home/kishore/anaconda3/lib/python3.6/lib2to3/fixes/fix_imports.py
+    --
+    ------------------------vvvvvv--
+    found in: fix_imports2.py
+                'anydbm': 'dbm',
+
+    /home/kishore/anaconda3/lib/python3.6/lib2to3/fixes/fix_imports2.py
+    --
+    ------------------------vvvvvv--
+    found in: dirdbm.py
+        This is for 'anydbm' compatibility.
+
+    /home/kishore/tor-browser_en-US/Browser/TorBrowser/Tor/PluggableTransports/twisted/persisted/dirdbm.py
+    --

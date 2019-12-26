@@ -1,0 +1,30 @@
+
+#program linked to Gsearch.py (problem former program in python3
+#structure of urlparse data for BULK
+#datastructure = list
+
+def structureresult(results):
+	from urlparse import urlparse
+
+	#assuming a list of urls given [results]
+
+	listformat =['scheme','netloc','path','params','query','fragment','username','password','hostname','port']
+
+	dataList = []
+	for url in results:
+	 
+		parsed = urlparse(url)
+
+		tempList = []
+		for value in parsed:
+			tempList.append(value)
+	
+		dataList.append(tempList)
+	
+	return dataList
+
+#urlsplit(): for urls following RFC 2396
+#format : ---
+
+#if parsed
+	

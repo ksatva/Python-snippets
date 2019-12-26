@@ -1,0 +1,45 @@
+#! /usr/bin/python3
+#searchinfiles.py
+#search for a word/string in files
+
+import os
+
+def searchinfiles(path,key):
+	count=exception=0
+	print('\nsearching for "%s"...'%key)
+	for f,s,files in os.walk(path):
+		for file in files:
+		#	if file in ['stack','pagemap','clear_refs','exe','mem','syscall']:
+		#		exception+=1
+		#		break			
+			pathTemp = (f+'/'+file)
+			print(pathTemp)	
+		#count+=1
+		#path = f+'/'+str(file[count])
+		#print(path)
+			try:
+				fileTemp = open(pathTemp)
+			#print(fileTemp)
+
+				for line in fileTemp:
+					fileLine = fileTemp.readline()
+				#print(fileLine) 					
+					if key in fileLine:
+						count+=1
+						print('-----------------------------------------------------')
+						print('found in: %s'%file)
+						print(fileLine)
+						print(pathTemp)
+						print('=====================================================')	
+						break
+				fileTemp.close()
+			except:
+				exception+=1
+				print('xxxxxx-exception-xxxxxxxx-%10d-xxxxxxxxx'%exception+'\n'+file+'\n'+path)
+				
+	#if count == 0:
+	#	print('no match')
+	print('MATCH = %s'%count)
+	print('EXCEPTION = %s'%exception)
+
+searchinfiles('/proc','PYTHONPATH')

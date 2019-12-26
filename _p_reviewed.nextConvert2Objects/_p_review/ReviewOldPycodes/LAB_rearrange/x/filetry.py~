@@ -1,0 +1,9 @@
+import os
+
+fileTemp = open('/home/kishore/LearnPY/temporaryfile')
+for line in fileTemp:
+	fileLine = fileTemp.readline()
+	if 'kishore' in fileLine:
+		print('found')
+		break
+fileTemp.close()

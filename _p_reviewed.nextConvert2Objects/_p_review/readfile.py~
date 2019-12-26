@@ -1,0 +1,16 @@
+#! /usr/lib/python3
+
+#read file
+
+import os
+
+for file in ('/home/kishore/x/2.py'):
+	fileTemp = open(file)
+	for line in fileTemp:
+        	fileLine = fileTemp.readline()
+        	if 'Helloworld' in fileLine:
+                	print('found')
+                	break
+	fileTemp.close()
+	
+

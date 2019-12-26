@@ -1,0 +1,32 @@
+/etc
+eth0
+    ------------------------vvvvvv--
+    found in: smb.conf
+    ;   interfaces = 127.0.0.0/8 eth0
+
+    /etc/samba/smb.conf
+    --
+    ------------------------vvvvvv--
+    found in: interfaces~
+    iface eth0 inet dhcp
+
+    /etc/network/interfaces~
+    --
+    ------------------------vvvvvv--
+    found in: interfaces
+    #iface eth0 inet dhcp
+
+    /etc/network/interfaces
+    --
+    ------------------------vvvvvv--
+    found in: 70-persistent-net.rules
+    SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="14:18:77:c1:50:18", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth0"
+
+    /etc/udev/rules.d/70-persistent-net.rules
+    --
+    ------------------------vvvvvv--
+    found in: initramfs.conf
+    # Specify a specific network interface, like eth0
+
+    /etc/initramfs-tools/initramfs.conf
+    --

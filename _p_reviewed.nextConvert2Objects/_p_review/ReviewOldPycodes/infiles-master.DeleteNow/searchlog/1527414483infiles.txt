@@ -1,0 +1,35 @@
+search-path: /home/k/Documents
+search-key: faj
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: recaptcha_ajax.js
+    help_btn:"S\u00fag\u00f3",play_again:"Hang ism\u00e9telt lej\u00e1tsz\u00e1sa",cant_hear_this:"Hang let\u00f6lt\u00e9se MP3 form\u00e1tumban",incorrect_try_again:"Hib\u00e1s. Pr\u00f3b\u00e1lkozzon \u00fajra.",image_alt_text:"reCAPTCHA ellen\u0151rz\u0151 k\u00e9p",privacy_and_terms:"Adatv\u00e9delem \u00e9s Szerz\u0151d\u00e9si Felt\u00e9telek"},hy:{visual_challenge:"\u054d\u057f\u0561\u0576\u0561\u056c \u057f\u0565\u057d\u0578\u0572\u0561\u056f\u0561\u0576 \u056d\u0576\u0564\u056b\u0580",audio_challenge:"\u054d\u057f\u0561\u0576\u0561\u056c \u0571\u0561\u0575\u0576\u0561\u0575\u056b\u0576 \u056d\u0576\u0564\u056b\u0580",
+
+    Path: /home/k/Documents/MTech_CourseWork/BMEcurriculum/BME_study_materials/CMBE/webpages/An Introduction to Numerical Methods_files/recaptcha_ajax.js
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: Tank height details.eml
+    4BI5YDg14x4H0G8+KfxD1GTX72+s4dRtJb6Y25K/aIxKqrGhfP7tXC4zuA8rHUZAB9P2uu6PfajP
+
+    Path: /home/k/Documents/ExtraCurriculum/Documents_BACKUP/#office_cil/feb/Tank height details.eml
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: Tank height details.eml
+    4BI5YDg14x4H0G8+KfxD1GTX72+s4dRtJb6Y25K/aIxKqrGhfP7tXC4zuA8rHUZAB9P2uu6PfajP
+
+    Path: /home/k/Documents/ExtraCurriculum/Documents_BACKUP/#office_cil/feb/bill/Tank height details.eml
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~...HIT...~~~~~~
+    Found in: Tank height details.eml
+    4BI5YDg14x4H0G8+KfxD1GTX72+s4dRtJb6Y25K/aIxKqrGhfP7tXC4zuA8rHUZAB9P2uu6PfajP
+
+    Path: /home/k/Documents/ExtraCurriculum/Documents_BACKUP/#office_cil/CILdump/Tank height details.eml
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+

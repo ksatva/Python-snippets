@@ -1,0 +1,3 @@
+...............local system only....
+path:  key:  . search(s) exact(a) viz(v) ftype(f) work 
+key:

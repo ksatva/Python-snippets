@@ -1,0 +1,15 @@
+#scrapingWays.py2
+
+#---scraping with regular expression-----
+from function1 import *
+import re
+
+url = 'http://example.webscraping.com/view/United-Kingdom-239'
+html = download(url)
+
+re.findall('<td class="w2p_fw">(.*?)</td>',html)
+#re.findall('<td class="w2p_fw">(.*?)</td>',html) [1] '244,820 square kilometers'
+
+#-------------
+
+

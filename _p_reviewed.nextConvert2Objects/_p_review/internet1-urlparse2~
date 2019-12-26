@@ -1,0 +1,27 @@
+
+
+#datastructure of urlparse
+#datastructure = list
+
+from urlparse import urlparse
+
+#assuming a list of urls given [results]
+
+listformat = ['scheme','netloc','path','params','query','fragment','username','password','hostname','port']
+
+dataList = []
+for url in results:
+	 
+	parsed = urlparse(url)
+
+  	tempList = []
+	for value in parsed:
+		tempList.append(value)
+	
+	dataList.append(tempList)
+
+#urlsplit(): for urls following RFC 2396
+#format : ---
+
+#if parsed
+	

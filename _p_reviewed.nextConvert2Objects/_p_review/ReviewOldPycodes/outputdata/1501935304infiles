@@ -1,0 +1,14 @@
+/home/kishore/p
+import shelve
+    ------------------------vvvvvv--
+    found in: files.py
+    import shelve
+
+    /home/kishore/p/files.py
+    --
+    ------------------------vvvvvv--
+    found in: files.py
+    import shelve
+
+    /home/kishore/p/LAB_rearrange/x/files.py
+    --

@@ -1,0 +1,33 @@
+
+#base64 encode/decode
+import base64
+import textwrap
+
+#Loadthis source file and strip the header.
+with open(__file__,'rt') as input:
+	raw = input.read()
+	initial_data = raw.split('#end_pymotw_header')[1]
+
+encoded_data = base64.b64encode(initial_data)
+
+num_initial = len(initial_data)
+
+#There will never be more than two padding bytes
+padding = 3-(num_initial%3)
+
+print '%d bytes before encoding' %num_initial
+print 'Except %d padding bytes' %padding
+print '%d bytes after encoding' % len(encoded_data)
+print
+print encoded_data
+
+#======decode===========
+print '----------------------------'
+original_string = 'This is the data, in the clear.'
+print 'original :',original_string
+
+encoded_string =base64.b64encode(original_string)
+print 'Encoded :', encoded_string
+
+decoded_string = base64.b64decode(encoded_string)
+print 'Decoded :',decoded_string

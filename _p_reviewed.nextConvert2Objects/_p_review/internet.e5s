@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Session SYSTEM "Session-5.0.dtd">
+<!-- This file was generated automatically, do not edit. -->
+<!-- Saved: 2017-02-21, 20:21:12 -->
+<Session version="5.0">
+  <Filenames>
+    <Filename cline="0" cindex="0" folds="" zoom="0">/home/kishore/p/internet1.py2</Filename>
+    <Filename cline="22" cindex="5" folds="" zoom="0">/home/kishore/p/internet2.py2</Filename>
+    <Filename cline="23" cindex="6" folds="" zoom="0">/home/kishore/p/internet3.py2</Filename>
+    <Filename cline="19" cindex="39" folds="" zoom="0">/home/kishore/p/internet4.py2</Filename>
+    <Filename cline="12" cindex="0" folds="" zoom="0">/home/kishore/p/internet5errorhandler.py2</Filename>
+    <Filename cline="20" cindex="6" folds="" zoom="0">/home/kishore/p/liburl-internet7.py2</Filename>
+  </Filenames>
+  <ActiveWindow cline="20" cindex="6">/home/kishore/p/liburl-internet7.py2</ActiveWindow>
+  <Breakpoints/>
+  <Watchexpressions/>
+  <DebugInfo>
+    <CommandLine>\</CommandLine>
+    <WorkingDirectory>/home/kishore/p</WorkingDirectory>
+    <Environment></Environment>
+    <ReportExceptions value="True"/>
+    <Exceptions/>
+    <IgnoredExceptions>
+      <IgnoredException>IOError</IgnoredException>
+      <IgnoredException>NameError</IgnoredException>
+      <IgnoredException>TypeError</IgnoredException>
+    </IgnoredExceptions>
+    <AutoClearShell value="True"/>
+    <TracePython value="False"/>
+    <AutoContinue value="True"/>
+    <CovexcPattern/>
+  </DebugInfo>
+  <Bookmarks/>
+</Session>

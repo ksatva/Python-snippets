@@ -1,0 +1,7 @@
+#! /usr/bin/pyhton3
+
+#++++++++++++discard=====updated to functions.py
+#block
+def appopen(filepath):
+    import subprocess
+    subprocess.call(["xdg-open",filepath])

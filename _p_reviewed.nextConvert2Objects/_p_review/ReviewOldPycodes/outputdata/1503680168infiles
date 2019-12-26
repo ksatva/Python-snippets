@@ -1,0 +1,14 @@
+/etc
+GT-
+    ------------------------vvvvvv--
+    found in: gt68xx.conf
+    # Artec Ultima 2000 (e+), and several other GT-6801-based scanners
+
+    /etc/sane.d/gt68xx.conf
+    --
+    ------------------------vvvvvv--
+    found in: GT-I8000 Network
+    id=GT-I8000 Network
+
+    /etc/NetworkManager/system-connections/GT-I8000 Network
+    --

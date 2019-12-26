@@ -1,0 +1,36 @@
+    vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+    found in: errors.py
+    #in python3
+
+    /home/kishore/p/errors.py
+    --
+    vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+    found in: idle1.py
+      File "/usr/lib/python3.4/idlelib/PyShell.py", line 1347, in write
+
+    /home/kishore/p/idle1.py
+    --
+    vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+    found in: infilesviz.txt~
+          File "/usr/lib/python3.4/idlelib/PyShell.py", line 1347, in write
+
+    /home/kishore/p/outputdata/infilesviz.txt~
+    --
+    ------------------------vvvvvv--
+    found in: errors.py
+    #in python3
+
+    /home/kishore/p/errors.py
+    --
+    ------------------------vvvvvv--
+    found in: idle1.py
+      File "/usr/lib/python3.4/idlelib/PyShell.py", line 1347, in write
+
+    /home/kishore/p/idle1.py
+    --
+    ------------------------vvvvvv--
+    found in: infilesviz.txt~
+          File "/usr/lib/python3.4/idlelib/PyShell.py", line 1347, in write
+
+    /home/kishore/p/outputdata/infilesviz.txt~
+    --

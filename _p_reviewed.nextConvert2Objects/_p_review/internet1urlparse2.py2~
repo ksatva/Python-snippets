@@ -1,0 +1,32 @@
+
+
+#program linked to Gsearch.py (written i py3)
+#datastructure of urlparse
+#datastructure = list
+
+def structureresults(results):
+	#assuming a list of urls given [results]
+	#returns a list
+	
+	from urlparse import urlparse
+
+	listformat = ['scheme','netloc','path','params','query','fragment','username','password','hostname','port']
+
+	dataList = []
+	for url in results:
+	 
+		parsed = urlparse(url)
+
+		tempList = []
+		for value in parsed:
+			tempList.append(value)
+	
+		dataList.append(tempList)
+	
+	return dataList
+
+#urlsplit(): for urls following RFC 2396
+#format : ---
+
+#if parsed
+	

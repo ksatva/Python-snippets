@@ -1,0 +1,49 @@
+#The worlds simpliest web browser
+#https://www.google.co.in/#q=hello+hi&*
+import socket
+
+'''
+mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+mysock.connect(('www.google.co.in',80))
+#-----------
+
+search_string = raw_input('Search: ')
+searchurl = 'https://www.google.co.in/#q='+search_string+'&*'
+print searchurl
+
+
+mysock.send('GET http://www.py4inf.com/code/romeo.txt HTTP/1.0\n\n')
+
+while True:
+	data = mysock.recv(512)
+	if (len(data)<1):
+		break
+	print data
+
+mysock.close()
+'''
+
+import socket
+request_text = """\
+GET /maps/api/geocode/json?address={}&sensor=false HTTP/1.1\r\n\
+Host: maps.google.com:80\r\n\
+User-Agent: search4.py (Foundations of Python Network Programming)\r\n\
+Connection: close\r\n\
+\r\n\
+"""
+from urllib.parse import quote_plus
+
+def geocode(address):
+    sock = socket.socket()
+    sock.connect(('maps.google.com',80))
+    request = request_text.format(quote_plus(address))
+    sock.sendall(requests.encode('ascii'))
+    raw_reply = b''
+    while True:
+        more = sock.recv(4096)
+        print(more)#
+        if not more:
+            break
+            raw_reply += more
+            print(raw_reply.decode('utf-8'))
+	

@@ -1,0 +1,4 @@
+# Program for playing the game of Life.
+from life import LifeGrid
+
+#

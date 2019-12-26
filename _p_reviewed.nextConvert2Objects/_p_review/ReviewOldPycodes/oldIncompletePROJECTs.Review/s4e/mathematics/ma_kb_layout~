@@ -1,0 +1,61 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "Mathematics";
+    
+    include "level3(ralt_switch)"
+
+    key <TLDE> {	[    grave,		asciitilde,  U2103,	U2109	]	};
+    key <AE01> {	[	  1,			exclam 		]	};
+    key <AE02> {	[	  2,			at				]	};
+    key <AE03> {	[	  3,			numbersign	]	};
+    key <AE04> {	[	  4,			dollar		]	};
+    key <AE05> {	[	  5,			percent		]	};
+    key <AE06> {	[	  6,			asciicircum	]	};
+    key <AE07> {	[	  7,			ampersand	]	};
+    key <AE08> {	[	  8,			asterisk		]	};
+    key <AE09> {	[	  9,			parenleft, U222A,	U2229	]	};
+    key <AE10> {	[	  0,			parenright, degree	]	};
+    key <AE11> {	[    minus,		underscore, plusminus	]	};
+    key <AE12> {	[    equal,		plus			]	};
+
+    key <AD01> {	[	  q,  		Q,  dead_acute,     dead_diaeresis 	]	};
+    key <AD02> {	[	  w,			W,  Greek_omega,    Greek_OMEGA		]	};
+    key <AD03> {	[	  e,			E,  Greek_epsilon,  NoSymbol	]	};
+    key <AD04> {	[	  r,			R,	 Greek_rho,      NoSymbol	]	};
+    key <AD05> {	[	  t,			T,  Greek_tau,      NoSymbol	]	};
+    key <AD06> {	[	  y,			Y,  Greek_upsilon,  NoSymbol	]	};
+    key <AD07> {	[	  u,			U,  Greek_theta,    Greek_THETA		]	};
+    key <AD08> {	[	  i,			I,  Greek_iota,     NoSymbol	]	};
+    key <AD09> {	[	  o,			O,  Greek_omicron,  NoSymbol	]	};
+    key <AD10> {	[	  p,			P,  Greek_pi,       Greek_PI			]	};
+    key <AD11> {	[ bracketleft,	braceleft	   ]	};
+    key <AD12> {	[ bracketright, braceright	]	};
+
+    key <AC01> {	[	  a,	A,  Greek_alpha,    U212B			]	};
+    key <AC02> {	[	  s,	S,  Greek_sigma,    Greek_SIGMA	]	};
+    key <AC03> {	[	  d,	D,  Greek_delta,    Greek_DELTA	]	};
+    key <AC04> {	[	  f,	F,  Greek_phi,      Greek_PHI		]	};
+    key <AC05> {	[	  g,	G,  Greek_gamma,    Greek_GAMMA	]	};
+    key <AC06> {	[	  h,	H,  Greek_eta,      NoSymbol ]	};
+    key <AC07> {	[	  j,	J,  Greek_xi,       Greek_XI		]	};
+    key <AC08> {	[	  k,	K,  Greek_kappa,    NoSymbol ]	};
+    key <AC09> {	[	  l,	L,  Greek_lamda,    Greek_LAMDA	]	};
+    key <AC10> {	[ semicolon,	colon		]	};
+    key <AC11> {	[ apostrophe,	quotedbl	]	};
+
+    key <AB01> {	[	  z,	Z,  Greek_zeta,     NoSymbol 	]	};
+    key <AB02> {	[	  x,	X,  NoSymbol,       NoSymbol	]	};
+    key <AB03> {	[	  c,	C,  Greek_psi,      Greek_PSI		]	};
+    key <AB04> {	[	  v,	V,  Greek_finalsmallsigma,    NoSymbol		]	};
+    key <AB05> {	[	  b,	B,	 Greek_beta,     NoSymbol	]	};
+    key <AB06> {	[	  n,	N,  Greek_nu,       NoSymbol		]	};
+    key <AB07> {	[	  m,	M,	 Greek_mu,       NoSymbol		]	};
+    key <AB08> {	[     comma,	less		]	};
+    key <AB09> {	[    period,	greater		]	};
+    key <AB10> {	[     slash,	question	]	};
+
+    key <BKSL> {	[ backslash,         bar	]	};
+};
+
+

@@ -1,0 +1,22 @@
+from bs4 import BeautifulSoup
+from urllib.request import urlopen
+from urllib.error import HTTPError 
+global flag   ur
+flag = []
+try:
+	html = urlopen(url)
+	flag.append(1)
+except HTTPError as e:
+	flag.append(0)
+	return None
+try:
+	bsObj = BeautifulSoup(html.read(), "lxml")
+	title = bsObj.h1
+	flag.append(1)
+except AttributeError as e:
+	flag.append(0)
+	return None
+
+#title, flag
+	
+

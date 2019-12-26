@@ -1,0 +1,19 @@
+import urllib
+
+img = urllib.urlopen('http://www.py4inf.com/cover.jpg')
+fhand = open('cover.jpg','w')
+size = 0
+while True:
+	#downloading data in chunks prevents memory overload
+	info = img.read(100000)	#100000 characters at a time
+	if len(info)<1: break
+	size = size+len(info)
+	fhand.write(info)
+
+print size,'characters copied.'
+fhand.close()
+
+'''
+port:
+web traffic generally uses -port 80; email traffic -port 25
+'''

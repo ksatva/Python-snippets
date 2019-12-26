@@ -1,0 +1,10 @@
+import base64
+
+encode_with_pluses = chr(251) + chr(239)
+encode_with_slashes = chr(255) * 2
+
+for original in [encode_with_pluses,encode_with_slashes]:
+	print 'Original	:',repr(original)
+	print 'Standard Encoding:',base64.standard_b64encode(original)
+	print 'URL-safe encoding:',base64.urlsafe_b64encode(original)
+	print 

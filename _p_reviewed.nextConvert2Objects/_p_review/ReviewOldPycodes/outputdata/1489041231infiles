@@ -1,0 +1,104 @@
+/home/kishore/p
+link
+    ------------------------vvvvvv--
+    found in: googling.py
+    linkElems = soup.select('.r,a')
+
+    /home/kishore/p/googling.py
+    --
+    ------------------------vvvvvv--
+    found in: internet1-urlparse2.py2~
+    #program linked to Gsearch.py (problem former program in python3
+
+    /home/kishore/p/internet1-urlparse2.py2~
+    --
+    ------------------------vvvvvv--
+    found in: www3.py2
+    links = re.findall('href="(http://.*?)"',html)
+
+    /home/kishore/p/www3.py2
+    --
+    ------------------------vvvvvv--
+    found in: www3.py2~
+    links = re.findall('href="(http://.*?)"',html)
+
+    /home/kishore/p/www3.py2~
+    --
+    ------------------------vvvvvv--
+    found in: delete.py
+            print('os.unlink('+str(pathv)+')?')
+
+    /home/kishore/p/delete.py
+    --
+    ------------------------vvvvvv--
+    found in: force.css
+    line.link {
+
+    /home/kishore/p/pagerank/force.css
+    --
+    ------------------------vvvvvv--
+    found in: spjson.py
+    fhand.write('"links":[\n')
+
+    /home/kishore/p/pagerank/spjson.py
+    --
+    ------------------------vvvvvv--
+    found in: d3.v2.js
+            n = links.length;
+
+    /home/kishore/p/pagerank/d3.v2.js
+    --
+    ------------------------vvvvvv--
+    found in: README.txt
+    database, recording the links between pages.
+
+    /home/kishore/p/pagerank/README.txt
+    --
+    ------------------------vvvvvv--
+    found in: spider.py
+        # If we are retrieving this page, there should be no links from it
+
+    /home/kishore/p/pagerank/spider.py
+    --
+    ------------------------vvvvvv--
+    found in: force.js
+        .linkDistance(dist)
+
+    /home/kishore/p/pagerank/force.js
+    --
+    ------------------------vvvvvv--
+    found in: sprank.py
+        # Find the number of outbound links and sent the page rank down each
+
+    /home/kishore/p/pagerank/sprank.py
+    --
+    ------------------------vvvvvv--
+    found in: 1489041205infiles
+    find html links
+
+    /home/kishore/p/outputdata/1489041205infiles
+    --
+    ------------------------vvvvvv--
+    found in: conf.py
+    # If true, links to the reST sources are added to the pages.
+
+    /home/kishore/p/pyperclip-1.5.27/docs/conf.py
+    --
+    ------------------------vvvvvv--
+    found in: Makefile
+    .PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest gettext
+
+    /home/kishore/p/pyperclip-1.5.27/docs/Makefile
+    --
+    ------------------------vvvvvv--
+    found in: make.bat
+    	echo.  linkcheck  to check all external links for integrity
+
+    /home/kishore/p/pyperclip-1.5.27/docs/make.bat
+    --
+    ------------------------vvvvvv--
+    found in: SOURCES.txt
+    pyperclip.egg-info/dependency_links.txt
+
+    /home/kishore/p/pyperclip-1.5.27/pyperclip.egg-info/SOURCES.txt
+    --

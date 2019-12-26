@@ -1,0 +1,19 @@
+#! /usr/lib/python3
+
+#read file
+
+from re import *
+from os import *
+
+
+word = re.compile('helloworld')
+
+def readthrouth(object):
+	if word in object
+
+for file in os.listdir('/home/kishore/LearnPY'):
+	fileTemp = open(file)
+
+	readhrough(filetemp.read())
+	
+	

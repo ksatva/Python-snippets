@@ -1,0 +1,6 @@
+from array import Array2D
+
+# Open the text file for reading
+gradeFile = open( filename, "r" )
+
+# Extract the first two values wh

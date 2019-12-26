@@ -1,0 +1,10 @@
+filename = '/home/kishore/read/tempsearchfile.txt'
+
+
+	
+fopen = open(filename, 'r')
+		
+
+print(fopen.readline())	
+
+

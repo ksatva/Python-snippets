@@ -1,0 +1,30 @@
+
+#FUNCTION
+#FOR MODIFICATION IN NEED
+
+#-------work defined in files'----------
+#def walkwork(path,work):
+def walkwork(path):
+
+    import os
+    
+    folcount = filecount = 0
+    for folder, subfolder, files in os.walk(path):
+        folcount+=1
+        #write work
+                
+        for file in files:
+            filecount+=1
+            #write work
+            print(file)
+            #work
+
+
+    print('count data returns...')        
+    return {'PATH' : path, 'FOLDERS' : folcount, 'FILES' : filecount}
+    
+if __name__=='__main__':
+	walkwork("/home/k/workbench/MTech_Research_work_NIT/SIGNALPROCESSING/Kaushik/5 sec")
+	
+	
+

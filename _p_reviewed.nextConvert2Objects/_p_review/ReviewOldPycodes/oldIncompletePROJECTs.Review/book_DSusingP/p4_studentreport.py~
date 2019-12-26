@@ -1,0 +1,4 @@
+# Produces a student report from data extracted from an external source
+form studentfile import StudentFileReader
+
+# Name of the file to open
