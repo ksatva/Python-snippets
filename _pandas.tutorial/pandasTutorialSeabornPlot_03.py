@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Title - plot data
- (SKNayak PhD)
+ (for SKNayak PhD)
 
 Created on Thu Aug 29 00:19:45 2019
 @author: k as root

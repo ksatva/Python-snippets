@@ -4,8 +4,8 @@
 #can use integer values as keys
 #order of {key1:value1,key2:value2} does not matter unlike lists
 
-myCat={'size':'fat','color':'gray','disposition':'loud','gender':'male'}
-spam={112345:'luggage combination', 32:'the answer'}
+myCat={'size':'fat', 'color':'gray', 'disposition': 'loud', 'gender': 'male'}
+spam={112345:'luggage combination', 32: 'the answer'}
 
 birthdays={'Alice':'Apr 1','Bob':'Dec 12'}
 

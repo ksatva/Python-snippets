@@ -1,7 +1,6 @@
 import os
 
-
-counta=bcount=ccount=parcc=parc=parb=0
+counta = bcount = ccount = parcc = parc = parb = 0
 
 for a, b, c in os.walk('/home/kishore/Music'):
     counta+=1

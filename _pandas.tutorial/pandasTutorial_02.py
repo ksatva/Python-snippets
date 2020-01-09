@@ -3,7 +3,7 @@
 """
 Title - Preparing data set for ML classification 
  (Removing and renaming of columns in feature table)
- (SKNayak -PhD)
+ (for SKNayak -PhD)
  
 Created on Wed Aug 28 13:35:46 2019
 @author: k as root

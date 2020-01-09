@@ -15,5 +15,3 @@ for sym,w,h in (('*',4,4),('0',20,5),('x',3,3),('ZZ',3,3)):
         boxprint(sym,w,h)
     except Exception as err:
         print('an exception occured: '+str(err))
-
-        

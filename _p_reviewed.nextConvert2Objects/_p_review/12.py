@@ -1,7 +1,7 @@
-spam =  ['cats','dofs', 'moose']
-bacon= ['dogs','moose','pats']
+spam =  ['cats', 'dogs', 'moose']
+bacon= ['dogs', 'moose', 'pats']
 
-x = spam==bacon
+x = spam == bacon
 print(x)
 
 spam = {'name': 'xophie', 'age' :'7'}
